@@ -1,0 +1,37 @@
+.owl-carousel {
+	&.owl-nav-middle {
+		&:hover {
+			.owl-nav {
+				.owl-next,
+				.owl-prev {
+					opacity: 1;
+				}
+			}
+		}
+		.owl-nav {
+			.owl-next,
+			.owl-prev {
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				opacity: 0;
+				transition: all 0.3s linear;
+				font-size: 2rem;
+				margin: 0;
+				&:hover {
+					background-color: transparent;
+					color: $primary;
+				}
+				&.disabled {
+					opacity: 0.3;
+				}
+			}
+			.owl-next {
+				right: 0;
+			}
+			.owl-prev {
+				left: 0;
+			}
+		}
+	}
+}

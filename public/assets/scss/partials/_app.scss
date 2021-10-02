@@ -1,0 +1,25 @@
+body[data-sidebar="dark"] .navbar-brand-box,
+body[data-sidebar="dark"] .vertical-menu {
+	background: $primary;
+}
+
+.noti-icon .badge {
+	right: 0;
+}
+.ajax-loader11 {
+      visibility: hidden;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      width: 100%;
+      height: 100%;
+      border: none;
+      background-color: white;
+      background-repeat: no-repeat;
+      background-position: center;
+      z-index: 10000000;
+      opacity: 0.8;
+}
+.vendor_get_amount_text1,.vendor_get_amount_text{
+    color: #006400 !important;
+}

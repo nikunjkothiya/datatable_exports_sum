@@ -1,0 +1,11 @@
+@for $i from 1 through 24 {
+	.font-size-#{$i} {
+		font-size: #{$i + "px"};
+	}
+}
+
+@each $color, $value in $colors {
+	.text-#{$color} {
+		color: rgba(($value), 1) !important;
+	}
+}
